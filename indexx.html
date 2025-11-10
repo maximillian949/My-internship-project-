@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Landing page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="@mediaquerry.css">
+</head>
+<body>
+    <section class="home_screen">
+        <div class="home_screen_container">
+            <div class="home_screen_container_items">
+                <nav class="desktop_nav">
+                    <div class="logo">
+                        <h1 class="logo_text">Just<span>stay</span></h1>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#rooms">Rooms</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="">Logout</a>
+                    </div>
+                </nav>
+                <nav class="hamburger_nav">
+                    <div class="logo">
+                        <h1 class="logo_text">Just<span>stay</span></h1>
+                    </div>
+                    <div class="hamburger_menu">
+                        <div class="hamburger_icon" onclick="toggleMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="menu_links">
+                            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                            <li><a href="#rooms" onclick="toggleMenu()">Rooms</a></li>
+                            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+                            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="home_screen_text">
+                <h3>WELCOME TO</h3>
+                <h1>Hotel Just<span>stay</span></h1>
+                <h1>Ahmedabad inndia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nesciunt quisquam <br> accusantium omnis iure vel minima 
+                    impedit corrupti deleniti enim odit <br>debitis numquam, 
+                    asperiores velit provident alias?
+                </p>
+                <div class="home_screen_btn">
+                    <button class="book_btn">Book Now</button>
+                    <button class="explore_btn">Exlore More</button>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="about_text_p1"><img src="/images/Frame 91 (2).png" alt=""></p>
+        <div class="about_container">
+            <div class="about_container_one">
+                <div class="about_image_container">
+                    <img 
+                        src="/images/54df73e5a35efd54e8e8934ae7966d87232ffb2c (1).png" 
+                        alt="about image"
+                        class="about_image"
+                    >
+                </div>
+                <div class="about_text">
+                    <h1>History of Just<span>stay</span></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem praesentium dolore perferendis quibusdam velit, impedit cupiditate. Amet quasi pariatur ad commodi voluptates ex nostrum perspiciatis modi eligendi quod! Expedita.</p>
+                    <p class="transparent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis veritatis minima voluptate quis ad accusamus itaque quidem aliquid quam beatae, similique officia commodi quia nobis esse, mollitia quod fuga dolor.</p>
+                    <button class="about_btn">Read More</button>
+                </div>
+            </div>
+            
+            <div class="about_container_two">
+                <div class="about_text">
+                    <h1>Why choose us?</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem praesentium dolore perferendis quibusdam velit, impedit cupiditate. Amet quasi pariatur ad commodi voluptates ex nostrum perspiciatis modi eligendi quod! Expedita.</p>
+                    <p class="transparent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis veritatis minima voluptate quis ad accusamus itaque quidem aliquid quam beatae, similique officia commodi quia nobis esse, mollitia quod fuga dolor.</p>
+                    <button class="about_btn">Read More</button>
+                </div>
+
+                <div class="about_image_container">
+                    <img 
+                        src="/images/54df73e5a35efd54e8e8934ae7966d87232ffb2c (1).png" 
+                        alt="about image"
+                        class="about_image"
+                    >
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="div_container">
+        <div>
+            <h1>8</h1>
+            <p>Years of service</p>
+        </div>
+        <div>
+            <h1>459</h1>
+            <p>sq. Meter Area</p>
+        </div>
+        <div>
+            <h1>50</h1>
+            <p>Nice Rooms</p>
+        </div>
+        <div>
+            <h1>3786</h1>
+            <p>Happy visitors</p>
+        </div>
+    </div>
+    <section id="rooms">
+        <p class="about_text_p1"><img src="/images/Frame 91 (1).png" alt=""></p>
+        <h1>Explore Our <span>Rooms</span></h1>
+        <div class="rooms_container">
+            <div class="room_type">
+                <img src="/images/Image.png" alt="">
+                <h3>JUNIOR SUITE</h3>
+                <P>$150.00 / per night</P>
+            </div>
+            <div class="room_type">
+                <img src="/images/Image (1).png" alt="">
+                <h3>EXECUTIVE SUITE</h3>
+                <P>$250.00 / per night</P>
+            </div>
+            <div class="room_type">
+                <img src="/images/Image (2).png" alt="">
+                <h3>SUPER DELLUXE</h3>
+                <P>$350.00 / per night</P>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <p class="about_text_p1"><img src="/images/Frame 91.png" alt=""></p>
+        <h1 class="section_heading">Explore Our <span>Services</span></h1>
+        <div class="services_container">
+            <div class="services_items">
+                <p><img src="/images/building 1.svg" alt=""></p>
+                <div class="itme_text">
+                    <h3>Rooms & Appartment</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+            <div class="services_items special_services_item">
+                <p><img src="/images/ranking-podium 1.png" alt=""></p>
+                <div class="itme_text">
+                    <h3>Sports & Gaming</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+            <div class="services_items">
+                <p><img src="/images/restaurant 1.svg" alt=""></p>
+                <div class="itme_text">
+                    <h3>Food and Resturant</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+            <div class="services_items">
+                <p><img src="/images/candle-lotus-yoga 1.svg" alt=""></p>
+                <div class="itme_text">
+                    <h3>Spa and Fitness</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+            <div class="services_items">
+                <p><img src="/images/glass-cheers 1.svg" alt=""></p>
+                <div class="itme_text">
+                    <h3>Event & Party</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+            <div class="services_items">
+                <p><img src="/images/gym 1.svg" alt=""></p>
+                <div class="itme_text">
+                    <h3>GYM & Yoga</h3>
+                    <p>Figma ipsun component variant main layer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <p class="about_text_p1"><img src="/images/Frame 91 (3).png" alt=""></p>
+        <h1 class="section_heading">What People <span>Say?</span></h1>
+        <div class="testimonials_cntainer">
+            <div class="testimonial_items">
+                <p><img src="/images/quote-down.svg" alt=""></p>
+                <p class="testimonial_text">
+                    Nobis voluptatem magni doloribus volupate cupla dolor est neque
+                </p>
+                <h3>Rita O'Conner</h3>
+                <p class="testimonial_email">
+                    Sandrine.Luetgen@gmail.com
+                </p>
+            </div>
+            <div class="testimonial_items">
+                <p><img src="/images/quote-down.svg" alt=""></p>
+                <p class="testimonial_text">
+                    Nobis voluptatem magni doloribus volupate cupla dolor est neque
+                </p>
+                <h3>Woodrow McCllough</h3>
+                <p class="testimonial_email">
+                    Idel.Hoppe86@yahoo.com
+                </p>
+            </div>
+            <div class="testimonial_items">
+                <p><img src="/images/quote-down.svg" alt=""></p>
+                <p class="testimonial_text">
+                    Nobis voluptatem magni doloribus volupate cupla dolor est neque
+                </p>
+                <h3>Veronica Hessel</h3>
+                <p class="testimonial_email">
+                    Valentin.Homenick@gmail.com
+                </p>
+            </div>
+            <div class="testimonial_items">
+                <p><img src="/images/quote-down.svg" alt=""></p>
+                <p class="testimonial_text">
+                    Nobis voluptatem magni doloribus volupate cupla dolor est neque
+                </p>
+                <h3>George Heaney</h3>
+                <p class="testimonial_email">
+                    Liliana.Howell85@hotmail.com
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="foter_text footer_head">
+                <h1>Just<span>stay</span></h1>
+                <p class="footer_text">Recusandea quos nesciunt veniam eum quia</p>
+                <p class="footer_text">shaikhsaad@gmail.com</p>
+            </div>
+            <div class="footer_links_container">
+                <div class="footer_links">
+                    <p>Quick Links</p>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+                <div class="footer_links">
+                    <p>Quick Links</p>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+                <div class="footer_links">
+                    <p>Quick Links</p>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+                <div class="footer_links">
+                    <p>Quick Links</p>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="myscript.js"></script>
+</body>
+</html>
